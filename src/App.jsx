@@ -17,7 +17,6 @@ function App() {
       <div className="container">
         {room ? <Chat room={room} setRoom={setRoom} /> : <RoomPage setIsAuth={setIsAuth} setRoom={setRoom} /> }
         
-        
       </div>
     </>
   );
